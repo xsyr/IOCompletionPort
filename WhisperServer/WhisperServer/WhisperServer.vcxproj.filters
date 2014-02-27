@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TcpSocketServer">
+      <UniqueIdentifier>{00e0d21e-1c77-4ed7-acaf-627bb4dc4de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TcpSocketServer">
+      <UniqueIdentifier>{af368219-1dae-412d-86e7-ec255c614847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Business">
+      <UniqueIdentifier>{e02d7361-1f15-41f7-bb1e-f001ff13600f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Business">
+      <UniqueIdentifier>{b9a898d8-c11a-427d-b9fd-ace61810ff21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Business\Handlers">
+      <UniqueIdentifier>{0d84e9c6-ecf2-4521-a9e5-33c1750816fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Business\Handlers">
+      <UniqueIdentifier>{d375c331-cea2-4e12-9727-613105324a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utf-8">
+      <UniqueIdentifier>{6b415a4c-a7b8-4eb9-96b8-c66a4ed8a12d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WhisperSocketEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocketFactory.h">
+      <Filter>Header Files\TcpSocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpConnectionManager.h">
+      <Filter>Header Files\TcpSocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocketEventDispatcher.h">
+      <Filter>Header Files\TcpSocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocketServer.h">
+      <Filter>Header Files\TcpSocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\Business.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\Deserializor.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\IMessageHandler.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\PacketDispatcher.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\PacketWrapper.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\Request.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\Response.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\Serializor.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Business\Handlers\AuthenticateRequestHandler.h">
+      <Filter>Header Files\Business\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8.h">
+      <Filter>Header Files\utf-8</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhisperServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhisperSocketEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocketServer.cpp">
+      <Filter>Source Files\TcpSocketServer</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocketFactory.cpp">
+      <Filter>Source Files\TcpSocketServer</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocketEventDispatcher.cpp">
+      <Filter>Source Files\TcpSocketServer</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpConnectionManager.cpp">
+      <Filter>Source Files\TcpSocketServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\Deserializor.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\PacketDispatcher.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\PacketWrapper.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\Request.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\Response.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\Serializor.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\Handlers\AuthenticateRequestHandler.cpp">
+      <Filter>Source Files\Business\Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
